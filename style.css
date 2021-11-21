@@ -1,0 +1,76 @@
+/*header {
+    background-color: gray;
+    height: 200px;
+} */
+
+header{
+    background-color: gray;
+    height: 200px;
+    background-image: url(ROBLOOX.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 250px;
+    padding-right: 1200px;
+}
+
+.topnav1 {
+    margin-top: 60px;
+    height: 50px;
+    text-align: center;
+}
+
+.topnav1 ul{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.topnav1 ul li {
+    margin: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list.roblox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-right: 700px;
+}
+
+*{
+    margin: 0;
+}
+    .R{
+      color: black;
+    }
+
+footer {
+    padding: 30px;
+    background-color: lightgray;
+    text-align: center;
+}
+    
+.topnav1 ul a{
+    color: green;
+    text-decoration: none;
+    background-color:white;
+    padding: 10px 15px;
+    border: green 1px solid;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 25px 20px 10px rgba(0,0,0,1);
+}
+   
+.topnav1 ul a:hover{
+    background-color: green;
+    color:white;
+}
